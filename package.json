@@ -1,0 +1,29 @@
+{
+  "name": "babel-project",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/konst-an/babel-project#readme",
+  "bugs": {
+    "url": "https://github.com/konst-an/babel-project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konst-an/babel-project.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6"
+  },
+  "dependencies": {
+    "core-js": "^3.48.0"
+  }
+}
